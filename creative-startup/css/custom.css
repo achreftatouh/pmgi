@@ -1,0 +1,34 @@
+.org-card{
+    color: white;
+    background-color: #ee8e00;
+    border: none;
+    text-indent: 10px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.org-art{
+    color: white;
+    background-color: #f71c52;
+    border: none;
+
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.org-man{
+    color: white;
+    background-color: #037196;
+    border: none;
+    text-indent: 10px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.org-politique{
+    color: white;
+    background-color: #ee8e00;
+    border: none;
+    text-align: left;
+    letter-spacing: 3px;
+}
