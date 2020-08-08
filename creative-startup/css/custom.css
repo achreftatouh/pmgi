@@ -45,4 +45,7 @@
 .org-circle{
     border-radius: 300%; 
     padding: 20px;
+    height: 250px;
+    width: 250px;
+    
 }
