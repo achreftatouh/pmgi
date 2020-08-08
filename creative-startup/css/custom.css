@@ -32,3 +32,17 @@
     text-align: left;
     letter-spacing: 3px;
 }
+
+.org-vous{
+    color: black;
+    background-color: white;
+    border: none;
+    text-indent: 10px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.org-circle{
+    border-radius: 300%; 
+    padding: 20px;
+}
