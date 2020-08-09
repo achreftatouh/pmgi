@@ -249,7 +249,7 @@ if($(".scroll").length) {
         autoplay: true,
         margin:30,
         autoplayHoverPause: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 3000,
         responsive: {
             0: {
                 items: 1,
@@ -331,12 +331,12 @@ if($(".scroll").length) {
 
         loop: true,
         margin: 20,
-        slideSpeed: 5000,
+        slideSpeed: 1000,
         slideTransition: 'linear',
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 8000,
+        autoplayTimeout: 3000,
         autoplayHoverPause: true,
         responsive: {
             0: {
@@ -359,12 +359,12 @@ if($(".scroll").length) {
 
         loop: true,
         margin: 20,
-        slideSpeed: 5000,
+        slideSpeed: 3500,
         slideTransition: 'linear',
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 10000,
+        autoplayTimeout: 3500,
         autoplayHoverPause: true,
         responsive: {
             0: {
@@ -397,6 +397,7 @@ if($(".scroll").length) {
             verticalSwiping: true,
             slidesToShow: 1,
             slidesToScroll: 1,
+            autoplay: true,
             asNavFor: '.slider-detail',
             dots: false,
             arrows: false,

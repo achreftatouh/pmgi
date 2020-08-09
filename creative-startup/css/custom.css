@@ -1,86 +1,89 @@
-.org-card{
-    color: white;
-    background-color: #ee8e00;
-    border: none;
-    text-indent: 10px;
-    text-align: left;
-    letter-spacing: 3px;
+.org-card {
+  color: white;
+  background-color: #ee8e00;
+  border: none;
+  text-indent: 10px;
+  text-align: left;
+  letter-spacing: 3px;
 }
 
-.org-art{
-    color: white;
-    background-color: #f71c52;
-    border: none;
+.org-art {
+  color: white;
+  background-color: #f71c52;
+  border: none;
 
-    text-align: left;
-    letter-spacing: 3px;
+  text-align: left;
+  letter-spacing: 3px;
 }
 
-.org-man{
-    color: white;
-    background-color: #037196;
-    border: none;
-    text-indent: 10px;
-    text-align: left;
-    letter-spacing: 3px;
+.org-man {
+  color: white;
+  background-color: #037196;
+  border: none;
+  text-indent: 10px;
+  text-align: left;
+  letter-spacing: 3px;
 }
 
-.org-politique{
-    color: white;
-    background-color: #ee8e00;
-    border: none;
-    text-align: left;
-    letter-spacing: 3px;
+.org-politique {
+  color: white;
+  background-color: #ee8e00;
+  border: none;
+  text-align: left;
+  letter-spacing: 3px;
 }
 
-.org-vous{
-    color: black;
-    background-color: white;
-    border: none;
-    text-indent: 10px;
-    text-align: left;
-    letter-spacing: 3px;
+.org-vous {
+  color: black;
+  background-color: white;
+  border: none;
+  text-indent: 10px;
+  text-align: left;
+  letter-spacing: 3px;
 }
 
-.org-circle{
-    border-radius: 300%; 
-    padding: 20px;
-    height: 250px;
-    width: 250px;
-    
+.org-circle {
+  border-radius: 300%;
+  padding: 20px;
+  height: 250px;
+  width: 250px;
 }
 
-.org-circle2{
-    border-radius: 300%; 
-    padding: 30px;
-    height: 340px;
-    width: 340px;
-    
+.org-circle2 {
+  border-radius: 300%;
+  padding: 30px;
+  height: 340px;
+  width: 340px;
 }
 
-.org-circle2{
-    border-radius: 300%; 
-    padding: 30px;
-    height: 400px;
-    width: 400px;
-    
+.org-circle2 {
+  border-radius: 300%;
+  padding: 30px;
+  height: 400px;
+  width: 400px;
 }
 
-.org-fem{
-    text-indent: 10px;
-    letter-spacing: 3px;
-    padding: 60px;
+.org-fem {
+  text-indent: 10px;
+  letter-spacing: 3px;
+  padding: 60px;
 }
 
-.org-fem2{
-    text-indent: 10px;
-    letter-spacing: 1px;
-    padding: 10px;
+.org-fem2 {
+  text-indent: 10px;
+  letter-spacing: 1px;
+  padding: 10px;
 }
 
-.org-fem3{
-    text-indent: 10px;
-    letter-spacing: 1px;
-    padding: 5px;
-    margin-top: 50px;
+.org-fem3 {
+  text-indent: 10px;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.blog-img {
+  height: 450px;
+  width: 600px;
+  object-fit: cover;
 }
