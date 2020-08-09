@@ -237,6 +237,45 @@ if($(".scroll").length) {
         owl.trigger('prev.owl.carousel', [300]);
     });
 
+    
+    //Testimonial Slider
+
+    $('.fem-carousel').owlCarousel({
+        loop: true,
+        smartSpeed: 600,
+        responsiveClass: true,
+        nav:false,
+        dots:false,
+        autoplay: true,
+        margin:30,
+        autoplayHoverPause: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 30,
+            },
+            480: {
+                items: 1,
+            },
+            992: {
+                items: 1,
+            }
+        }
+    });
+
+    $('#fem-next').click(function() {
+        var owl = $('.fem-carousel');
+        owl.owlCarousel();
+        owl.trigger('next.owl.carousel');
+    });
+    $('#fem-prev').click(function() {
+        var owl = $('.fem-carousel');
+        owl.owlCarousel();
+        owl.trigger('prev.owl.carousel', [300]);
+    });
+
+
 
     
     /* ===================================
