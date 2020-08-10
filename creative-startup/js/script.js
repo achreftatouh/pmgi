@@ -359,13 +359,13 @@ if($(".scroll").length) {
 
         loop: true,
         margin: 20,
-        slideSpeed: 3500,
+        slideSpeed: 1000,
         slideTransition: 'linear',
         nav: false,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 3500,
-        autoplayHoverPause: true,
+        autoplayTimeout: 1500,
+        autoplayHoverPause: false,
         responsive: {
             0: {
                 items: 2

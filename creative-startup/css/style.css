@@ -2810,8 +2810,8 @@ header
 }
 
 .formation-content {
-  width: 400px !important;
-  margin-left: -23px !important;
+  width:370px !important;
+  margin-left: -10px !important;
 }
 
 .fb-video {
@@ -2819,7 +2819,20 @@ header
 }
 
 
+.title-text {
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  transform: translateY(100%)
+}
+
+
 @media (max-width: 992px) {
+  .title-text {
+    transform: translateY(0%)
+  }
   .gold {
     transform: translateY(-10%);
   }
@@ -2829,17 +2842,12 @@ header
   .fb-video {
     height: 320px;
   }
+  .title-text {
+    font-size: 35px;
+  }
 }
 @media (max-width: 500px) {
   .fb-video {
     height: 250px;
   }
-}
-
-.title-text {
-  color: #ffffff;
-  font-family: Oswald, sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  margin-bottom: 30px;
 }
