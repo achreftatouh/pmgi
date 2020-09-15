@@ -9,7 +9,7 @@
 
 .org-art {
   color: white;
-  background-color: #f71c52;
+  background-color: #07ade4;
   border: none;
 
   text-align: left;
@@ -61,6 +61,12 @@
   padding: 30px;
   height: 370px;
   width: 370px;
+}
+.org-circle3 {
+  border-radius: 300%;
+  padding: 32px;
+  height: 300PX;
+  width: 300PX;
 }
 
 .org-fem {
