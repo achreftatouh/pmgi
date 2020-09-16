@@ -2809,7 +2809,7 @@ header
 }
 
 .formation-content {
-  width:370px !important;
+  width: 370px !important;
   margin-left: -10px !important;
 }
 
@@ -2817,20 +2817,21 @@ header
   height: 400px;
 }
 
-
 .title-text {
   color: #ffffff;
   font-family: Oswald, sans-serif;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 30px;
-  transform: translateY(100%)
+  transform: translateY(100%);
 }
 
-
+.hand-font {
+  font-family: "Dancing Script", cursive;
+}
 @media (max-width: 992px) {
   .title-text {
-    transform: translateY(0%)
+    transform: translateY(0%);
   }
   .gold {
     transform: translateY(-10%);

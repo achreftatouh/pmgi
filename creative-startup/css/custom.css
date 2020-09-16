@@ -56,6 +56,17 @@
   width: 340px;
 }*/
 
+.organization-circle {
+  background: white;
+  color: black;
+  border-radius: 300%;
+  padding: 10px;
+  height: 220px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 45px;
+  width: 225px;
+}
 .org-circle2 {
   border-radius: 300%;
   padding: 30px;
