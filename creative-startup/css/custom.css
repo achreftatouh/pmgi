@@ -11,9 +11,19 @@
   color: white;
   background-color: #07ade4;
   border: none;
-
   text-align: left;
   letter-spacing: 3px;
+}
+
+.little-circle{
+  background-color: white;
+  border-radius: 100%;
+  padding-top: 35px;
+  box-shadow: 0px 2px 9px black;
+  height: 135px;
+  font-size: 13px;
+  font-weight: 600;
+  width: 135px;
 }
 
 .org-man {
@@ -110,4 +120,40 @@
     height: 250px;
     width: 350px;
   }
+}
+
+
+#twelve-point-star {
+  color: black;
+  margin-left: 54px;
+  height: 250px;
+  width: 250px;
+  background: white;
+  position: absolute;
+}
+#twelve-point-star:before {
+  height: 250px;
+  width: 250px;
+  background: white;
+  content:"";
+  position: absolute;
+  /* Rotate */
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+#twelve-point-star:after {
+  height: 250px;
+  width: 250px;
+  background: white;
+  content:"";
+  position: absolute;
+  /* Rotate */
+  -moz-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
