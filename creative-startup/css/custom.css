@@ -157,3 +157,10 @@
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
+
+.video-1{
+  margin: auto;
+  width: 600px;
+  z-index: 100;
+  margin-top: -75px;
+}
