@@ -633,7 +633,7 @@ header .fixed-nav-logo {
   display: none;
 }
 header .navbar-brand img {
-  max-width: 80%;
+  max-width: 100%;
 }
 header .main-navigation {
   padding-top: 30px;
@@ -1245,6 +1245,7 @@ header
 .about-sec .services-area .services .service-card .icon-holder {
   margin-bottom: 12px;
   transition: 0.5s ease;
+  height: 110px;
 }
 .about-sec .services-area .services .service-card .icon-holder i {
   color: #ffffff;

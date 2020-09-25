@@ -3,7 +3,12 @@
   font-weight: 100;
   color: #939393;
   transform: scale(1.33) translateY(100px);
-  margin-right: 85px;
+  margin-right: 40px;
+}
+@media (max-width: 992px) {
+  .wordCarousel {
+    margin-right: 85px;
+  }
 }
 
 .wordCarousel div {

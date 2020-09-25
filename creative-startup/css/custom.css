@@ -126,6 +126,12 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 0.8rem !important;
+  }
+}
+
 #twelve-point-star {
   color: black;
   margin-left: 54px;
