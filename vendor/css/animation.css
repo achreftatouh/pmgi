@@ -3,7 +3,14 @@
   font-weight: 100;
   color: #939393;
   transform: scale(1.33) translateY(100px);
-  margin-right: 40px;
+  margin-right: -125px;
+}
+
+.anchor{
+  display: -webkit-inline-box;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
 }
 @media (max-width: 992px) {
   .wordCarousel {
